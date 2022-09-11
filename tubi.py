@@ -875,16 +875,16 @@ def tools():
 def title():
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       TP-Tool                                      "+Fore.LIGHTGREEN_EX  +"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Copyright : Lê Trọng Phúc                   "+Fore.LIGHTGREEN_EX  +" ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Zalo Contact : 0985739109  "+Fore.LIGHTGREEN_EX  +"                  ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       TUBI TOOL                                     "+Fore.LIGHTGREEN_EX  +"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Copyright : Phan Anh Tuấn                   "+Fore.LIGHTGREEN_EX  +" ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Zalo Contact : 0932481635  "+Fore.LIGHTGREEN_EX  +"                  ║\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Chọn Lệnh 'help'  Để Vào Tool   "+Fore.LIGHTGREEN_EX +"             ║\n")
 
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""Tool"+Fore.LIGHTGREEN_EX+" By "+Fore.LIGHTGREEN_EX+"TP-TOOL"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
+    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""Tool"+Fore.LIGHTGREEN_EX+" VIP By "+Fore.LIGHTGREEN_EX+"TUBI TOOL"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
     command = input()
     if command == "cls" or command == "clear":
         clear()
